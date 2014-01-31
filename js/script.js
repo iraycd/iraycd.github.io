@@ -40,5 +40,6 @@ project.controller('BlogCtrl', function($scope,$http) {
      $scope.blog = "active";
      $http.get('/ph_postings_meta.json').success(function(data) {
         $scope.posts = data.posts;
+        $scope.posts.pop();
       });
 });

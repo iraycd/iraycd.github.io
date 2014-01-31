@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico)
+size = 100px
+bg = #203748
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+
+
+h1#header
+  text-align  center
+  padding size/3
+  font-size  size/2.4
+  text-shadow 0 2px 2px darken(bg,40%)
+
+
+.article-wrapper
+  transition(width .4s)
+
+
+article
+  position relative
+  padding-left size + (size/5)
+  padding-right (size/2)
+  height  size
+  margin-bottom  size/5
+  background-color  #FFF
+  border-radius(size)
+  cursor pointer
+  
+  .img-wrapper
+    position  absolute
+    top - 10px
+    left -10px
+    border-radius(100px)
+    background-color  bg
+    padding 10px
+    
+    img
+      border-radius(100px)
+      width  size
+  h1
+    height  size/2
+    line-height  size/2
+    font-size  24px
+    border-bottom  2px solid bg
+    color  #428bca
+  
+  p
+    color  #888
+  
+  a
+    position absolute
+    display block
+    top  0
+    left  0
+    height  100%
+    line-height  size
+    text-align  center
+    width  100%
+    background-color  #FFF
+    font-size  48px
+    font-style italic
+    opacity 0
+    color  #428bca !important
+    transition(all .4s)
+    text-decoration  none !important
+    border-radius(size)
+    text-shadow(0 1px 1px #AAA)
+
+@media only screen and (max-width: 460px)
+    article
+       height 200px
+       h1
+            font-size  16px
+       p
+        font-size  12px

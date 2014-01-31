@@ -31,7 +31,7 @@ a.brand img {
 #profile .container .span5 {
 	padding:40px 0;
 }
-a.hire-me {
+a.mail-me {
 	display: inline-block;
  *display: inline;
 	padding:20px 60px;
@@ -44,7 +44,7 @@ a.hire-me {
 	-moz-border-radius: 40px;
 	border-radius: 40px;
 }
-a.hire-me:hover {
+a.mail-me:hover {
 	text-decoration:none;
 	background:#11d170;
 }

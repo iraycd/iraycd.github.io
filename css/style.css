@@ -45,7 +45,7 @@ a.brand img {
 	border-radius: 50%;
 	text-align:center;
 	border:8px solid #203748;
-	float:right;
+    margin:0px auto;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
@@ -55,7 +55,7 @@ a.brand img {
 .profile .image:hover {
 	border:8px solid #fff;
 }
-a.hire-me {
+a.mail-me {
 	display: inline-block;
  *display: inline;
 	padding:20px 60px;
@@ -68,7 +68,7 @@ a.hire-me {
 	-moz-border-radius: 40px;
 	border-radius: 40px;
 }
-a.hire-me:hover {
+a.mail-me:hover {
 	text-decoration:none;
 	background:#11d170;
 }

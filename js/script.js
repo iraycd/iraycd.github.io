@@ -36,6 +36,9 @@ project.controller('WorkCtrl', function($scope) {
      $scope.work = "active";
 });
  
-project.controller('BlogCtrl', function($scope) {
+project.controller('BlogCtrl', function($scope,$http) {
      $scope.blog = "active";
+     $http.get('/ph_postings_meta.json').success(function(data) {
+        $scope.posts = data.posts;
+      });
 });

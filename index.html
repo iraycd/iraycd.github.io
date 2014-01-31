@@ -1,66 +1,7 @@
-    <!DOCTYPE html>
-    <html lang="en" ng-app="project">
-    <head>
-    <meta charset="utf-8">
-    <title>Ray Ch(Hacker/Developer) - iraycd </title>
-    <meta name="description" content="Ray Ch(Hacker/Developer) - Co-founder @ Ninjaas.com. Adictive to new technology.">
-    <meta name="keywords" content="front-end, responsive, developer, back-end, python, javascript, developer">
-    <meta name="author" content="Ray Ch">
-    <meta name="description" content="This is my mini profile where I can tell anything about myself.">
-    <!-- styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js"></script>
-    <script src="js/script.js"></script>
-    <link href="css/style.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container"> 
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="entypo-menu"></span>
-            </a>
-           <a class="brand" href="/"><img src="img/user.jpg"/></a>
-            <ul class="nav nav-collapse pull-right">
-                <li><a href="/" ng-class="getClass('/')"><i class="entypo-vcard"></i> Profile</a></li>
-                <li><a href="/#skills"  ng-class="getClass('/skills')"><i class="entypo-chart-pie"></i> Skills</a></li>
-                <li><a href="/#work"  ng-class="getClass('/work')"><i class="entypo-code"></i> Work</a></li>
-                <li><a href="blog.html" ><i class="entypo-book-open"></i> Blog</a></li>
-            </ul>
-          <!-- Everything you want hidden at 940px or less, place within here -->
-          <div class="nav-collapse collapse">
-            <!-- .nav, .navbar-search, .navbar-form, etc -->
-          </div>
-        </div>
-      </div>
-    </div>
+---
+layout: default
+title: Hacker/Developer
+---
     <!--Profile container-->
     <div ng-view>
     </div>
-    <!--END: Profile container-->
-    <!-- Social fa fas -->
-    <div class="row social">
-      <ul class="social-icons">
-        <li><a href="https://facebook.com/iraycd" target="_blank"><img src="img/fb.png" alt="facebook"></a></li>
-        <li><a href="https://twitter.com/iraycd" target="_blank"><img src="img/tw.png" alt="twitter"></a></li>
-        <li><a href="https://plus.google.com/+RayCh" target="_blank"><img src="img/go.png" alt="google plus"></a></li>
-        <li><a href="https://pinterest.com/iraycd" target="_blank"><img src="img/pin.png" alt="pinterest"></a></li>
-        <li><a href="https://dribbble.com/iraycd" target="_blank"><img src="img/dr.png" alt="dribbble"></a></li>
-      </ul>
-    </div>
-    <!-- END: Social fa fas -->
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container">
-        <p class="pull-left">Redesigned by <a href="http://iraycd.com">iraycd</a></p>
-        <p class="pull-right"><i class="fa fa-download "></i><span class="entypo-flow-branch"></span> <a href="https://gumroad.com/mlgonzales">Lester Gonzales</a></p>
-      </div>
-    </div>
-    <!-- Scripts -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script data-brackets-id="166" src="js/bootstrap.min.js"></script>
-    </body>
-    </html>

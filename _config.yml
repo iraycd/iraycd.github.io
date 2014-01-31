@@ -1,0 +1,6 @@
+name: 1midea
+markdown: redcarpet
+pygments: true
+safe: true
+lsi: false
+source: ./

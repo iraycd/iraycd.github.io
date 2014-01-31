@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="en" ng-app="project">
     <head>
     <meta charset="utf-8">
     <title>Ray Ch(Hacker/Developer) - iraycd </title>
@@ -9,21 +9,27 @@
     <meta name="description" content="This is my mini profile where I can tell anything about myself.">
     <!-- styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=entypo"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.min.js"></script>
+    <script src="js/script.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="fa fa-bars"></span> <span class="fa fa-bar"></span> <span class="fa fa-bars"></span> </a> <a class="brand" href="index.html"><img src="img/user.jpg"/></a>
-          <ul class="nav nav-collapse pull-right">
-            <li><a href="index.html" class="active"><i class="fa fa-user"></i> Profile</a></li>
-            <li><a href="skills.html"><i class="fa fa-trophy"></i> Skills</a></li>
-            <li><a href="work.html"><i class="fa fa-picture"></i> Work</a></li>
-            <li><a href="blog.html"><i class="fa fa-doc-text"></i> Blog</a></li>
-          </ul>
+        <div class="container"> 
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="entypo-menu"></span>
+            </a>
+           <a class="brand" href="/"><img src="img/user.jpg"/></a>
+            <ul class="nav nav-collapse pull-right">
+                <li><a href="/" ng-class="getClass('/')"><i class="entypo-vcard"></i> Profile</a></li>
+                <li><a href="/#skills"  ng-class="getClass('/skills')"><i class="entypo-chart-pie"></i> Skills</a></li>
+                <li><a href="/#work"  ng-class="getClass('/work')"><i class="entypo-code"></i> Work</a></li>
+                <li><a href="blog.html" ><i class="entypo-book-open"></i> Blog</a></li>
+            </ul>
           <!-- Everything you want hidden at 940px or less, place within here -->
           <div class="nav-collapse collapse">
             <!-- .nav, .navbar-search, .navbar-form, etc -->
@@ -32,15 +38,7 @@
       </div>
     </div>
     <!--Profile container-->
-    <div class="container profile">
-        <div class="span3"> <img src="img/mini.png"> </div>
-        <div class="span5">
-            <h1>Ray Ch</h1>
-            <h3>Front-end Developer and Back-end hacker</h3>
-            <p> Ray Ch (Hacker/Developer) - Co-founder @ Startup called <a href="http://ninjaas.com">Ninjaas.com</a>. Adictive to new technology.
-             I'm <a href="http://www.entjpersonality.info/">ENTJ</a> and for anything related to me learn in my blog. </p>
-            <strike><a href="#" class="hire-me"><i class="fa fa-paper-plane"></i> Mail me </a> </strike>
-        </div>
+    <div ng-view>
     </div>
     <!--END: Profile container-->
     <!-- Social fa fas -->
@@ -58,11 +56,12 @@
     <!-- Footer -->
     <div class="footer">
       <div class="container">
-        <p class="pull-left"><a href="http://dzyngiri.com">www.dzyngiri.com</a></p>
-        <p class="pull-right"><i class="fa fa-download "></i>Created by <a href="https://gumroad.com/mlgonzales">Lester Gonzales</a></p>
+        <p class="pull-left">Redesigned by <a href="http://iraycd.com">iraycd</a></p>
+        <p class="pull-right"><i class="fa fa-download "></i><span class="entypo-flow-branch"></span> <a href="https://gumroad.com/mlgonzales">Lester Gonzales</a></p>
       </div>
     </div>
     <!-- Scripts -->
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script data-brackets-id="166" src="js/bootstrap.min.js"></script>
     </body>
     </html>

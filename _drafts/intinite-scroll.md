@@ -2,7 +2,7 @@
 layout: post
 title:  "Infinite Scroll"
 categories: design futurefriendly
-featured_image : https://lh3.googleusercontent.com/UDIdc1rEdOl3W3HNv-J8Rl7ytKzyISkXoZy49_dUu032xXpotXATcpLSk02-YqCbjQ=w1254-h513
+featured_image : https://lh3.googleusercontent.com/-QZpqHVa66Qg/UxDjhAHRlpI/AAAAAAAAJp4/6V2jYMLgC40/w426-h284/infinite-scrolling-featured.jpg
 meta : How infinite scroll should work. 
 ---
 ###What, Why and How?

@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving problems"
 date:   2014-03-10 4:49:00
-categories: 
+categories: business
 featured_image : https://lh3.googleusercontent.com/-oVsbsAPkzG8/Uxzq5-PhESI/AAAAAAAAJtk/Fje3BDCGoZY/w400-h300-no/drabs2.png
 meta : Simple ways to solve a problem written for myself
 ---

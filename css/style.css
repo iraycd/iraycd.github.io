@@ -301,6 +301,15 @@ ul.work-images li img:hover {
 	color:#39d084;
 }
 
-h3 {
-    
+.post .featured_image{
+	display: block;
+	margin: 0px auto;
+	max-width:80%; 
+}
+.post .title{
+	font-size: 3.5em;
+}
+
+.post .content{
+	padding-top: 3.5em;
 }

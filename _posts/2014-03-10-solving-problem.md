@@ -47,5 +47,4 @@ Go back to the loop and think again. Go back to understand the it again.
 ##If works. Start implementing
 
 ####Reference:
-
-This process is improve method to solve the problem. This is influenced by the [Simon's Golden Circle](https://www.youtube.com/watch?v=u4ZoJKF_VuA)
+[Simon's Golden Circle](https://www.youtube.com/watch?v=u4ZoJKF_VuA)

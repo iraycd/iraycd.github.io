@@ -26,6 +26,7 @@ One word answer to this is to start questioning with _***Why?***_
 ![Urgent and Important Chart](https://lh3.googleusercontent.com/-0mGi8jPFQk4/Uxztwl6sRBI/AAAAAAAAJt4/gh5Fuxe3nt0/w570-h410-no/covey-time-management-matrix.001.001.png)
 
 **Real life examples:**
+
 + What should I do now? Watch a video on youtube `(4)`
 + How should I give a presention? Waste time on learning [reveal.js](http://lab.hakim.se/reveal-js/) takes 20-1 hours `(2)`
 + Should Write a blog on problem solving? Yes. Ofcourse `(2)`

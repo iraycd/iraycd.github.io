@@ -9,39 +9,43 @@ meta : Simple ways to solve a problem written for myself
 
 ##Understand the Problem
 
-One word answer to this is start questioning with _***Why?***_
+Is it really a problem?
+Can we define the problem in the first place?
+Has anybody already solved the problem?
+One word answer to this is to start questioning with _***Why?***_
 
-+ Why do have the problem in the first place?
++ Why do we have the problem in the first place?
 + Why do I need to solve it?
-+ Why are is losing focus?
++ Why do we lose the focus on the project?
 + Why..Why...Why?
 
-##Analyze whether it's worth solving
+##Analyze whether is it worth solving
 
-"Should" is the question you need to focus on. But before anything else you need follow the below priority.
+"Should" is the word to solve this question. But before anything else you need follow the below priority.
 
 ![Urgent and Important Chart](https://lh3.googleusercontent.com/-0mGi8jPFQk4/Uxztwl6sRBI/AAAAAAAAJt4/gh5Fuxe3nt0/w570-h410-no/covey-time-management-matrix.001.001.png)
 
-+ What should I do now? Watch Video and Movie `(4)`
-+ How should I give presention? Waste time on learning reveal.js takes 20-1 hours `(2)`
+**Real life examples:**
++ What should I do now? Watch a video on youtube `(4)`
++ How should I give a presention? Waste time on learning [reveal.js](http://lab.hakim.se/reveal-js/) takes 20-1 hours `(2)`
 + Should Write a blog on problem solving? Yes. Ofcourse `(2)`
 + Tweet in office? <strike>Fucking yes.`(1)`</strike> Noooooo..`(4)`
 
 
 ##Don't just have one solution
-If you have a intellectual team with huge diversity in skillset or multiple personalities disorder.
-You get amazing solutions.
+If you have an intellectual team with huge diversity in skillset or multiple personalities disorder.
+You get amazing and various solutions.
 
 	You can't pull your own chair while sitting on it.
 
 To get solutions you need to have an eagle eye view/think out of the box.
-Best solution is relax, relax and relax.
+Best solution can be derived with a relaxed mind.
 
 
 ##Think again
-I found the best solution. But wait it doesn't work not now. Can you improve the solution?
-The solution which you have got is it really awesome. Does it solve tempory problems.
-Go back to the loop and think again. Go back to understand the it again.
+I found the best solution. But wait it doesn't work right now. Can you improve the solution?
+The solution which you have got, is it really awesome? Does it solve temporarily or prementatly?
+Go back to the loop, understand it by thinking again.
 
 
 ##If works. Start implementing

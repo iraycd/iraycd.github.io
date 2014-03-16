@@ -10,6 +10,7 @@ meta : Simple ways to solve a problem written for myself
 ##Understand the Problem
 
 Is it really a problem?
+Is this the problem or does the porblem has a parent problem?
 Can we define the problem in the first place?
 Has anybody already solved the problem?
 One word answer to this is to start questioning with _***Why?***_

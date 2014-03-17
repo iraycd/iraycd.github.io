@@ -44,7 +44,10 @@ To get solutions you need to have an eagle eye view/think out of the box.
 Best solution can be derived with a relaxed mind.
 
 
-##Think again
+## Stop and Think...Again
+
+<iframe src="//player.vimeo.com/video/4248858?color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/4248858">STOPandTHINK - Talking Head</a> from <a href="http://vimeo.com/jrcanest">Jr.canest</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 I found the best solution. But wait it doesn't work right now. Can you improve the solution?
 The solution which you have got, is it really awesome? Does it solve temporarily or prementatly?
 Go back to the loop, understand it by thinking again.

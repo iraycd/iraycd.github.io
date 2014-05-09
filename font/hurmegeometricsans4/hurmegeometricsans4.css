@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'HurmeGeometricSans4Regular';
+    src: url('hurmegeometricsans4.eot');
+    src: url('hurmegeometricsans4.eot') format('embedded-opentype'),
+         url('hurmegeometricsans4.woff') format('woff'),
+         url('hurmegeometricsans4.ttf') format('truetype'),
+         url('hurmegeometricsans4.svg#HurmeGeometricSans4Regular') format('svg');
+}

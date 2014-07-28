@@ -4,10 +4,11 @@ categories: book
 title: "Discorvery of India"
 author: "Jawaharlal Nehru"
 author_link: http://en.wikipedia.org/wiki/Jawaharlal_Nehru
-book_image: Discovery-of-India.gif
+featured_image: /books/images/Discovery-of-India.gif
 link: http://en.wikipedia.org/wiki/The_Discovery_of_India
 date: 2012-04-06 21:35
 ribbon: read
+meta: I love the way Nehru thinks. It's not just for Indian's but for humans.
 ---
 
 I seriously love this book. Everything teaches a new lesson.

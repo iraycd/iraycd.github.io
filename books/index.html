@@ -3,7 +3,8 @@ layout: default
 title: Books - Interesting, Read and Reading
 ---
 <link rel="stylesheet" href="/css/book.css">
-
+<h1>Books</h1>
+<p>Books I've read(reviews), the books I love and want to read.</p>
 <div class="component">
     <ul class="align">
     {% for post in site.posts %}
@@ -13,7 +14,7 @@ title: Books - Interesting, Read and Reading
           <!-- Front -->
           <ul class='hardcover_front'>
             <li>
-              <img src="/books/images/{{post.book_image}}" alt="" width="100%" height="100%">
+              <img src="{{post.featured_image}}" alt="" width="100%" height="100%">
               <span class="ribbon {{post.ribbon}}">
                 {{post.ribbon}}
               </span>
@@ -42,7 +43,7 @@ title: Books - Interesting, Read and Reading
           <figcaption>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <span>By <a href="{{post.author_link}}" target="_blank">{{post.author}}</a></span>
-            <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+            <p>{{ post.meta | strip_html | truncatewords: 25 }}</p>
           </figcaption>
         </figure>
       </li>

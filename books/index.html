@@ -1,0 +1,52 @@
+---
+layout: default
+title: Books - Interesting, Read and Reading
+---
+<link rel="stylesheet" href="/css/book.css">
+
+<div class="component">
+    <ul class="align">
+    {% for post in site.posts %}
+      {% if post.categories contains 'books' %}
+      <li>
+        <figure class='book'>
+          <!-- Front -->
+          <ul class='hardcover_front'>
+            <li>
+              <img src="/books/images/{{post.book_image}}" alt="" width="100%" height="100%">
+              <span class="ribbon {{post.ribbon}}">
+                {{post.ribbon}}
+              </span>
+            </li>
+            <li></li>
+          </ul>
+          <!-- Pages -->
+          <ul class='page'>
+            <li></li>
+            <li>
+              <a class="btn" href="{{post.link}}" target="_blank">Know more</a>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <!-- Back -->
+          <ul class='hardcover_back'>
+            <li></li>
+            <li></li>
+          </ul>
+          <ul class='book_spine'>
+            <li></li>
+            <li></li>
+          </ul>
+          <figcaption>
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <span>By <a href="{{post.author_link}}" target="_blank">{{post.author}}</a></span>
+            <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+          </figcaption>
+        </figure>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+</div>

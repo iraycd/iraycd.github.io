@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: book
+categories: autobiography
 title: "Discorvery of India"
 author: "Jawaharlal Nehru"
 author_link: http://en.wikipedia.org/wiki/Jawaharlal_Nehru

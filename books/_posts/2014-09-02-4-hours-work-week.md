@@ -1,8 +1,8 @@
 ---
 layout: post
 categories: productivity
-title: "Discorvery of India"
-author: "The 4-Hour Work Week"
+title: "The 4-Hour Work Week"
+author: "Timothy Ferriss"
 author_link: http://en.wikipedia.org/wiki/Timothy_Ferriss
 featured_image: /books/images/4-hours-work-week.jpg
 link: http://en.wikipedia.org/wiki/The_4-Hour_Workweek

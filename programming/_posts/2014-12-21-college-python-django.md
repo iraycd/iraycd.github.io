@@ -3,7 +3,7 @@ layout: post
 title:  "Where and How did I learn Python and Django?"
 date:   2014-12-21 10:40:00
 categories: programming
-featured_image : https://lh3.googleusercontent.com/-oVsbsAPkzG8/Uxzq5-PhESI/AAAAAAAAJtk/Fje3BDCGoZY/w400-h300-no/drabs2.png
+featured_image : https://lh3.googleusercontent.com/-KdSwnxxd8bA/UPQq89hjctI/AAAAAAABYWo/bLYvHBFaGFM/w600/photo.jpg
 meta : It's about the complete story of my life at KMIT and Django. Where did I use it, How did I learn? Go to the last heading to get the resources.
 ---
 

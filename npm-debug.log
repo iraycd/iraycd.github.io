@@ -1,0 +1,361 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'streamqueue' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 warn package.json iraycd.com@0.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'streamqueue', null ]
+7 verbose cache add name=undefined spec="streamqueue" args=["streamqueue",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'streamqueue',
+8 verbose parsed url   path: 'streamqueue',
+8 verbose parsed url   href: 'streamqueue' }
+9 silly lockFile 1508ab4a-streamqueue streamqueue
+10 verbose lock streamqueue /Users/iraycd/.npm/1508ab4a-streamqueue.lock
+11 silly lockFile 1508ab4a-streamqueue streamqueue
+12 silly lockFile 1508ab4a-streamqueue streamqueue
+13 verbose addNamed [ 'streamqueue', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile c91cab40-streamqueue streamqueue@
+16 verbose lock streamqueue@ /Users/iraycd/.npm/c91cab40-streamqueue.lock
+17 silly addNameRange { name: 'streamqueue', range: '*', hasData: false }
+18 verbose request where is /streamqueue
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id c691ed86938c7abd
+21 verbose url raw /streamqueue
+22 verbose url resolving [ 'https://registry.npmjs.org/', './streamqueue' ]
+23 verbose url resolved https://registry.npmjs.org/streamqueue
+24 verbose request where is https://registry.npmjs.org/streamqueue
+25 info trying registry request attempt 1 at 11:33:31
+26 http GET https://registry.npmjs.org/streamqueue
+27 http 200 https://registry.npmjs.org/streamqueue
+28 silly registry.get cb [ 200,
+28 silly registry.get   { date: 'Sun, 21 Dec 2014 06:03:33 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"12K75AZAN66NM12QH848KGD29"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '19282',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-sn89-SIN',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1419141811.794969,VS0,VE1227',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly addNameRange number 2 { name: 'streamqueue', range: '*', hasData: true }
+30 silly addNameRange versions [ 'streamqueue',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.6',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2' ] ]
+31 verbose addNamed [ 'streamqueue', '0.1.1' ]
+32 verbose addNamed [ '0.1.1', '0.1.1' ]
+33 silly lockFile a5d9c987-streamqueue-0-1-1 streamqueue@0.1.1
+34 verbose lock streamqueue@0.1.1 /Users/iraycd/.npm/a5d9c987-streamqueue-0-1-1.lock
+35 silly lockFile 2d5a7270-treamqueue-streamqueue-0-1-1-tgz https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+36 verbose lock https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz /Users/iraycd/.npm/2d5a7270-treamqueue-streamqueue-0-1-1-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz',
+37 verbose addRemoteTarball   '41b337200fdb94506870e7976d7e180003331b98' ]
+38 info retry fetch attempt 1 at 11:33:33
+39 verbose fetch to= /var/folders/9t/h1qht3r914d0x1x8kr56pn500000gn/T/npm-49409-OQTGDdLY/registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+40 http GET https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+41 http 200 https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+42 silly lockFile 2d5a7270-treamqueue-streamqueue-0-1-1-tgz https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+43 silly lockFile 2d5a7270-treamqueue-streamqueue-0-1-1-tgz https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz
+44 silly lockFile a5d9c987-streamqueue-0-1-1 streamqueue@0.1.1
+45 silly lockFile a5d9c987-streamqueue-0-1-1 streamqueue@0.1.1
+46 silly lockFile c91cab40-streamqueue streamqueue@
+47 silly lockFile c91cab40-streamqueue streamqueue@
+48 silly resolved [ { name: 'streamqueue',
+48 silly resolved     version: '0.1.1',
+48 silly resolved     description: 'Pipe queued streams progressively, keeping datas order.',
+48 silly resolved     homepage: 'https://github.com/nfroidure/StreamQueue',
+48 silly resolved     main: 'src/index.js',
+48 silly resolved     scripts:
+48 silly resolved      { test: './node_modules/mocha/bin/mocha tests/*.mocha.js',
+48 silly resolved        coveralls: './node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- tests/*.mocha.js -R spec -t 5000 && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+48 silly resolved        cover: './node_modules/istanbul/lib/cli.js cover --report html ./node_modules/mocha/bin/_mocha -- tests/*.mocha.js -R spec -t 5000' },
+48 silly resolved     repository: { type: 'git', url: 'git://github.com/nfroidure/StreamQueue' },
+48 silly resolved     keywords: [ 'queue', 'streaming', 'stream', 'async', 'pipe' ],
+48 silly resolved     devDependencies:
+48 silly resolved      { mocha: '~1.19.0',
+48 silly resolved        'event-stream': '~3.1.5',
+48 silly resolved        'mocha-lcov-reporter': '0.0.1',
+48 silly resolved        istanbul: '~0.2.10',
+48 silly resolved        coveralls: '~2.10.0' },
+48 silly resolved     author:
+48 silly resolved      { name: 'Nicolas Froidure',
+48 silly resolved        url: 'http://www.insertafter.com/blog.html' },
+48 silly resolved     engines: { node: '>= 0.10.0' },
+48 silly resolved     licenses: [ [Object] ],
+48 silly resolved     bugs: { url: 'https://github.com/nfroidure/StreamQueue/issues' },
+48 silly resolved     dependencies: { 'readable-stream': '~1.0.27-1', isstream: '~0.1.0' },
+48 silly resolved     _id: 'streamqueue@0.1.1',
+48 silly resolved     dist:
+48 silly resolved      { shasum: '41b337200fdb94506870e7976d7e180003331b98',
+48 silly resolved        tarball: 'http://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz' },
+48 silly resolved     _from: 'streamqueue@',
+48 silly resolved     _npmVersion: '1.4.6',
+48 silly resolved     _npmUser: { name: 'nfroidure', email: 'nfroidure@elitwork.com' },
+48 silly resolved     maintainers: [ [Object] ],
+48 silly resolved     directories: {},
+48 silly resolved     _shasum: '41b337200fdb94506870e7976d7e180003331b98',
+48 silly resolved     _resolved: 'https://registry.npmjs.org/streamqueue/-/streamqueue-0.1.1.tgz' } ]
+49 info install streamqueue@0.1.1 into /Users/iraycd/workspace/iraycd.github.io
+50 info installOne streamqueue@0.1.1
+51 verbose node_modules/streamqueue unbuild
+52 verbose tar unpack /Users/iraycd/.npm/streamqueue/0.1.1/package.tgz
+53 silly lockFile 69cce46b-thub-io-node-modules-streamqueue tar:///Users/iraycd/workspace/iraycd.github.io/node_modules/streamqueue
+54 verbose lock tar:///Users/iraycd/workspace/iraycd.github.io/node_modules/streamqueue /Users/iraycd/.npm/69cce46b-thub-io-node-modules-streamqueue.lock
+55 silly lockFile 59d51073-pm-streamqueue-0-1-1-package-tgz tar:///Users/iraycd/.npm/streamqueue/0.1.1/package.tgz
+56 verbose lock tar:///Users/iraycd/.npm/streamqueue/0.1.1/package.tgz /Users/iraycd/.npm/59d51073-pm-streamqueue-0-1-1-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENCE
+62 silly gunzTarPerm extractEntry .travis.yml
+63 silly gunzTarPerm extractEntry src/index.js
+64 silly gunzTarPerm extractEntry tests/index.mocha.js
+65 silly lockFile 69cce46b-thub-io-node-modules-streamqueue tar:///Users/iraycd/workspace/iraycd.github.io/node_modules/streamqueue
+66 silly lockFile 69cce46b-thub-io-node-modules-streamqueue tar:///Users/iraycd/workspace/iraycd.github.io/node_modules/streamqueue
+67 silly lockFile 59d51073-pm-streamqueue-0-1-1-package-tgz tar:///Users/iraycd/.npm/streamqueue/0.1.1/package.tgz
+68 silly lockFile 59d51073-pm-streamqueue-0-1-1-package-tgz tar:///Users/iraycd/.npm/streamqueue/0.1.1/package.tgz
+69 info preinstall streamqueue@0.1.1
+70 verbose readDependencies using package.json deps
+71 verbose readDependencies using package.json deps
+72 verbose cache add [ 'readable-stream@~1.0.27-1', null ]
+73 verbose cache add name=undefined spec="readable-stream@~1.0.27-1" args=["readable-stream@~1.0.27-1",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'readable-stream@~1.0.27-1',
+74 verbose parsed url   path: 'readable-stream@~1.0.27-1',
+74 verbose parsed url   href: 'readable-stream@~1.0.27-1' }
+75 verbose cache add [ 'isstream@~0.1.0', null ]
+76 verbose cache add name=undefined spec="isstream@~0.1.0" args=["isstream@~0.1.0",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'isstream@~0.1.0',
+77 verbose parsed url   path: 'isstream@~0.1.0',
+77 verbose parsed url   href: 'isstream@~0.1.0' }
+78 verbose cache add name="readable-stream" spec="~1.0.27-1" args=["readable-stream","~1.0.27-1"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '~1.0.27-1',
+79 verbose parsed url   path: '~1.0.27-1',
+79 verbose parsed url   href: '~1.0.27-1' }
+80 verbose addNamed [ 'readable-stream', '~1.0.27-1' ]
+81 verbose addNamed [ null, '>=1.0.27-1 <1.1.0-0' ]
+82 silly lockFile e92f565a-readable-stream-1-0-27-1 readable-stream@~1.0.27-1
+83 verbose lock readable-stream@~1.0.27-1 /Users/iraycd/.npm/e92f565a-readable-stream-1-0-27-1.lock
+84 verbose cache add name="isstream" spec="~0.1.0" args=["isstream","~0.1.0"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '~0.1.0',
+85 verbose parsed url   path: '~0.1.0',
+85 verbose parsed url   href: '~0.1.0' }
+86 verbose addNamed [ 'isstream', '~0.1.0' ]
+87 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+88 silly lockFile 2feea433-isstream-0-1-0 isstream@~0.1.0
+89 verbose lock isstream@~0.1.0 /Users/iraycd/.npm/2feea433-isstream-0-1-0.lock
+90 silly addNameRange { name: 'readable-stream',
+90 silly addNameRange   range: '>=1.0.27-1 <1.1.0-0',
+90 silly addNameRange   hasData: false }
+91 silly addNameRange { name: 'isstream', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+92 verbose request where is /readable-stream
+93 verbose request registry https://registry.npmjs.org/
+94 verbose url raw /readable-stream
+95 verbose url resolving [ 'https://registry.npmjs.org/', './readable-stream' ]
+96 verbose url resolved https://registry.npmjs.org/readable-stream
+97 verbose request where is https://registry.npmjs.org/readable-stream
+98 info trying registry request attempt 1 at 11:33:34
+99 verbose etag "872Q1JZK3K6LDTH85QVCJH2KR"
+100 http GET https://registry.npmjs.org/readable-stream
+101 verbose request where is /isstream
+102 verbose request registry https://registry.npmjs.org/
+103 verbose url raw /isstream
+104 verbose url resolving [ 'https://registry.npmjs.org/', './isstream' ]
+105 verbose url resolved https://registry.npmjs.org/isstream
+106 verbose request where is https://registry.npmjs.org/isstream
+107 info trying registry request attempt 1 at 11:33:34
+108 verbose etag "B7S6KNTGCCJI4SFE5Q8PZ1E29"
+109 http GET https://registry.npmjs.org/isstream
+110 http 304 https://registry.npmjs.org/readable-stream
+111 silly registry.get cb [ 304,
+111 silly registry.get   { date: 'Sun, 21 Dec 2014 06:03:34 GMT',
+111 silly registry.get     server: 'Apache',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     'last-modified': 'Sun, 21 Dec 2014 06:03:35 GMT',
+111 silly registry.get     'cache-control': 'max-age=60',
+111 silly registry.get     etag: '"872Q1JZK3K6LDTH85QVCJH2KR"',
+111 silly registry.get     age: '0',
+111 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+111 silly registry.get     'x-cache': 'HIT',
+111 silly registry.get     'x-cache-hits': '1',
+111 silly registry.get     'x-timer': 'S1419141814.904186,VS0,VE991',
+111 silly registry.get     vary: 'Accept',
+111 silly registry.get     'content-length': '0',
+111 silly registry.get     'keep-alive': 'timeout=10, max=50',
+111 silly registry.get     connection: 'Keep-Alive' } ]
+112 verbose etag https://registry.npmjs.org/readable-stream from cache
+113 http 200 https://registry.npmjs.org/isstream
+114 silly registry.get cb [ 200,
+114 silly registry.get   { date: 'Sun, 21 Dec 2014 06:03:35 GMT',
+114 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+114 silly registry.get     etag: '"78R1LNH7OIEPUR5FG8FQ1WKMJ"',
+114 silly registry.get     'content-type': 'application/json',
+114 silly registry.get     'cache-control': 'max-age=60',
+114 silly registry.get     'content-length': '6916',
+114 silly registry.get     'accept-ranges': 'bytes',
+114 silly registry.get     via: '1.1 varnish',
+114 silly registry.get     age: '0',
+114 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+114 silly registry.get     'x-cache': 'HIT',
+114 silly registry.get     'x-cache-hits': '1',
+114 silly registry.get     'x-timer': 'S1419141814.903789,VS0,VE998',
+114 silly registry.get     vary: 'Accept',
+114 silly registry.get     'keep-alive': 'timeout=10, max=50',
+114 silly registry.get     connection: 'Keep-Alive' } ]
+115 silly addNameRange number 2 { name: 'readable-stream',
+115 silly addNameRange   range: '>=1.0.27-1 <1.1.0-0',
+115 silly addNameRange   hasData: true }
+116 silly addNameRange versions [ 'readable-stream',
+116 silly addNameRange   [ '0.0.1',
+116 silly addNameRange     '0.0.2',
+116 silly addNameRange     '0.0.3',
+116 silly addNameRange     '0.0.4',
+116 silly addNameRange     '0.1.0',
+116 silly addNameRange     '0.2.0',
+116 silly addNameRange     '0.3.0',
+116 silly addNameRange     '0.3.1',
+116 silly addNameRange     '1.0.0',
+116 silly addNameRange     '1.0.1',
+116 silly addNameRange     '1.0.2',
+116 silly addNameRange     '1.0.15',
+116 silly addNameRange     '1.0.17',
+116 silly addNameRange     '1.1.7',
+116 silly addNameRange     '1.1.8',
+116 silly addNameRange     '1.1.9',
+116 silly addNameRange     '1.0.24',
+116 silly addNameRange     '1.0.25',
+116 silly addNameRange     '1.1.10',
+116 silly addNameRange     '1.0.25-1',
+116 silly addNameRange     '1.1.11',
+116 silly addNameRange     '1.0.26',
+116 silly addNameRange     '1.0.26-1',
+116 silly addNameRange     '1.1.11-1',
+116 silly addNameRange     '1.0.26-2',
+116 silly addNameRange     '1.1.12',
+116 silly addNameRange     '1.0.26-3',
+116 silly addNameRange     '1.0.26-4',
+116 silly addNameRange     '1.1.12-1',
+116 silly addNameRange     '1.0.27-1',
+116 silly addNameRange     '1.1.13-1',
+116 silly addNameRange     '1.0.31',
+116 silly addNameRange     '1.1.13',
+116 silly addNameRange     '1.0.32',
+116 silly addNameRange     '1.0.32-1',
+116 silly addNameRange     '1.0.33-1',
+116 silly addNameRange     '1.0.33-2',
+116 silly addNameRange     '1.0.33' ] ]
+117 verbose addNamed [ 'readable-stream', '1.0.33' ]
+118 verbose addNamed [ '1.0.33', '1.0.33' ]
+119 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+120 verbose lock readable-stream@1.0.33 /Users/iraycd/.npm/f026aa23-readable-stream-1-0-33.lock
+121 silly addNameRange number 2 { name: 'isstream', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+122 silly addNameRange versions [ 'isstream', [ '0.0.0', '0.1.0', '0.1.1' ] ]
+123 verbose addNamed [ 'isstream', '0.1.1' ]
+124 verbose addNamed [ '0.1.1', '0.1.1' ]
+125 silly lockFile 250f77e1-isstream-0-1-1 isstream@0.1.1
+126 verbose lock isstream@0.1.1 /Users/iraycd/.npm/250f77e1-isstream-0-1-1.lock
+127 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+128 silly lockFile f026aa23-readable-stream-1-0-33 readable-stream@1.0.33
+129 silly lockFile 7560c78f--org-isstream-isstream-0-1-1-tgz https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+130 verbose lock https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz /Users/iraycd/.npm/7560c78f--org-isstream-isstream-0-1-1-tgz.lock
+131 silly lockFile e92f565a-readable-stream-1-0-27-1 readable-stream@~1.0.27-1
+132 silly lockFile e92f565a-readable-stream-1-0-27-1 readable-stream@~1.0.27-1
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz',
+133 verbose addRemoteTarball   '48332c5999893996ba253c81c7bd6e7ae0905c4f' ]
+134 info retry fetch attempt 1 at 11:33:35
+135 verbose fetch to= /var/folders/9t/h1qht3r914d0x1x8kr56pn500000gn/T/npm-49409-OQTGDdLY/registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+136 http GET https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+137 http 200 https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+138 silly lockFile 7560c78f--org-isstream-isstream-0-1-1-tgz https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+139 silly lockFile 7560c78f--org-isstream-isstream-0-1-1-tgz https://registry.npmjs.org/isstream/-/isstream-0.1.1.tgz
+140 silly lockFile 250f77e1-isstream-0-1-1 isstream@0.1.1
+141 silly lockFile 250f77e1-isstream-0-1-1 isstream@0.1.1
+142 silly lockFile 2feea433-isstream-0-1-0 isstream@~0.1.0
+143 silly lockFile 2feea433-isstream-0-1-0 isstream@~0.1.0
+144 verbose about to build /Users/iraycd/workspace/iraycd.github.io/node_modules/streamqueue
+145 verbose node_modules/streamqueue unbuild
+146 info preuninstall streamqueue@0.1.1
+147 info uninstall streamqueue@0.1.1
+148 verbose true,/Users/iraycd/workspace/iraycd.github.io/node_modules,/Users/iraycd/workspace/iraycd.github.io/node_modules unbuild streamqueue@0.1.1
+149 info postuninstall streamqueue@0.1.1
+150 error Error: EACCES, mkdir '/Users/iraycd/.npm/isstream/0.1.1'
+150 error  { [Error: EACCES, mkdir '/Users/iraycd/.npm/isstream/0.1.1']
+150 error   errno: 3,
+150 error   code: 'EACCES',
+150 error   path: '/Users/iraycd/.npm/isstream/0.1.1',
+150 error   parent: 'streamqueue' }
+151 error Please try running this command again as root/Administrator.
+152 error System Darwin 14.0.0
+153 error command "node" "/usr/local/bin/npm" "install" "--save-dev" "streamqueue"
+154 error cwd /Users/iraycd/workspace/iraycd.github.io
+155 error node -v v0.10.30
+156 error npm -v 1.4.21
+157 error path /Users/iraycd/.npm/isstream/0.1.1
+158 error code EACCES
+159 error errno 3
+160 error stack Error: EACCES, mkdir '/Users/iraycd/.npm/isstream/0.1.1'
+161 verbose exit [ 3, true ]

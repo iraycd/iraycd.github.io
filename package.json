@@ -1,0 +1,32 @@
+{
+  "name": "iraycd.com",
+  "version": "0.0.0",
+  "description": "It's my blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iraycd/iraycd.github.io.git"
+  },
+  "keywords": [
+    "iraycd",
+    "blog",
+    "open",
+    "source",
+    "everything"
+  ],
+  "author": "Ray Ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iraycd/iraycd.github.io/issues"
+  },
+  "homepage": "https://github.com/iraycd/iraycd.github.io",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-progeny": "0.0.7",
+    "gulp-stylus": "^1.3.4",
+    "nib": "^1.0.4"
+  }
+}

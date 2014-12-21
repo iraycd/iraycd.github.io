@@ -7,6 +7,9 @@ layout: default
 	<p class="meta">{{ page.date | date_to_string }}</p>
 	<img src="{{page.featured_image}}" class="featured_image">
 	<div class="content">
+		<div class="tdlr">
+			<strong>tl;dr</strong>: {{page.meta}}
+		</div>
 		{{ content }}
 	</div>
 </div>

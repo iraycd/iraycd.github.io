@@ -9,7 +9,6 @@ var nib = require('nib');
 gulp.task("css", function () {
     gulp
     .src("./styl/main.styl")
-    .pipe(progeny())
     .pipe(stylus({
       use: nib(),
       compress: true
@@ -18,7 +17,7 @@ gulp.task("css", function () {
 });
 
 gulp.task('watch', function(){
-  gulp.watch('*.styl', ['css']);
+  gulp.watch('./styl/**/*.styl', ['css']);
 });
 
 gulp.task('default',['css','watch'])

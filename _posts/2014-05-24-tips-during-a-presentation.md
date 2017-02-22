@@ -4,7 +4,7 @@ title:  "Thing to remember while giving a presentation."
 date:   2014-05-24 9:39:00
 categories: skills
 featured_image : https://lh5.googleusercontent.com/-7Jz2M1tHxxs/U4BgiwPpl_I/AAAAAAACSLY/P_AFSnoEGhQ/w384-h295-no/catgoogle.gif
-meta : Commen mistakes which most of the people do during a presentation and speech.
+meta : Common mistakes which most of the people do during a presentation and speech.
 ---
 
 #1. Never asks audience, "Can you hear me?"
